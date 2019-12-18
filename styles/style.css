@@ -1,0 +1,45 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: 'MedievalSharp', cursive; /* this should be the rest of the output you got from Google fonts */
+}
+
+/* Now we'll set font sizes for text-containing elements inside the HTML body (<h1>, <li>, and <p>). We'll also center the text of our heading and set some line height and letter spacing on the body content to make it a bit more readable: */
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+/* Sets background color for the whole page */
+html {
+  background-color: #D3C4E2;
+}
+
+/* Review css-notes for description of each */
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+/* Positioning and styling of main page title */
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+/* Centering the image */
+img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
